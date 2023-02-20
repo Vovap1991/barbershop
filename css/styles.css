@@ -1,0 +1,231 @@
+:root {
+  --header-nav-item-color: #fff;
+  --accent-color: #ff6c00;
+  --hero-text-color: #9da4bd;
+  --main-text-color: #555555;
+  --secondary-text-color: #303030;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+/* Common */
+.list {
+  list-style: none;
+}
+.primary-button-button {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1, 33;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: var(--header-nav-item-color);
+}
+
+.primary-button:hover,
+.primary-button:focus {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1, 33;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: var(--header-nav-item-color);
+  background-color: var(--accent-color);
+}
+
+.secondary-button {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1, 33;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: var(--secondary-text-color);
+}
+
+.secondary-button:hover,
+.secondary-button:focus {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1, 33;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: var(--header-nav-item-color);
+  background-color: var(--accent-color);
+}
+
+/* Header */
+
+.header-nav-item {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1, 33;
+  letter-spacing: 0.1em;
+  background-color: grey;
+}
+
+.header-nav-link {
+  color: var(--header-nav-item-color);
+  text-decoration: none;
+}
+
+.header-nav-link:hover,
+.header-nav-link:focus {
+  color: var(--accent-color);
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1, 33;
+  letter-spacing: 0.1em;
+}
+
+.header-tel {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--header-nav-item-color);
+  background-color: grey;
+  text-decoration: none;
+}
+.header-tel:hover,
+.header-tel:focus {
+  color: var(--accent-color);
+}
+
+/* Hero */
+.hero-link {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1, 36;
+  letter-spacing: 0.2em;
+  color: var(--secondary-text-color);
+}
+
+.hero-link:hover,
+.hero-link:focus {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1, 36;
+  letter-spacing: 0.2em;
+  color: var(--accent-color);
+}
+
+.hero-subtitle {
+  color: var(--hero-text-color);
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1, 36;
+  text-transform: uppercase;
+}
+.hero-title {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 1, 18;
+  letter-spacing: 0.05em;
+  color: var(--header-nav-item-color);
+  background-color: grey;
+}
+.hero-text {
+  font-size: 18px;
+  line-height: 1, 67;
+  letter-spacing: 0.02em;
+  color: var(--hero-text-color);
+}
+
+/* About */
+.about-subtitle {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1, 36;
+  text-transform: uppercase;
+  color: var(--secondary-text-color);
+}
+.about-title {
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1, 17;
+  letter-spacing: 0.05em;
+  color: var(--secondary-text-color);
+}
+.about-text {
+  font-size: 14px;
+  line-height: 1, 86;
+  letter-spacing: 0.02em;
+  color: var(--main-text-color);
+}
+.about-text span {
+  font-size: 18px;
+  line-height: 1, 67;
+  letter-spacing: 0.02em;
+  color: var(--main-text-color);
+}
+
+/* Price */
+.price-subtitle {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1, 37;
+  text-transform: uppercase;
+  color: var(--hero-text-color);
+}
+.price-title {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1, 67;
+  letter-spacing: 0.05em;
+  color: var(--header-nav-item-color);
+  background-color: grey;
+}
+
+.price-description {
+  font-size: 18px;
+  line-height: 1, 67;
+  letter-spacing: 0.02em;
+  color: var(--hero-text-color);
+}
+.secondary-button {
+}
+
+/* Advantages */
+.advantages-list-item {
+  background-color: #f7f7f7;
+}
+
+.advantages-number {
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1, 36;
+  letter-spacing: 0.05em;
+  color: var(--secondary-text-color);
+}
+.advantages-description {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1, 36;
+  color: var(--secondary-text-color);
+}
+.advantages-subtitle {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1, 36;
+  text-transform: uppercase;
+  color: var(--secondary-text-color);
+}
+.advantages-title {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1, 17;
+  letter-spacing: 0.05em;
+  color: var(--secondary-text-color);
+}
+.advantages-text {
+  font-size: 18px;
+  line-height: 1, 67;
+  letter-spacing: 0.02em;
+  color: var(--main-text-color);
+}
