@@ -1,0 +1,103 @@
+:root {
+    --header-nav-item-color: #fff;
+    --accent-color: #ff6c00;
+    --hero-text-color: #9da4bd;
+    --main-text-color: #555555;
+    --secondary-text-color: #303030;
+    --contacts-color: #9da4bd;
+}
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p {
+    margin: 0;
+}
+  
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: currentColor;
+    outline: transparent;
+}
+
+button {
+    font-family: inherit;
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+    outline: transparent;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    color: var(--main-text-color);
+    background-color: #fff;
+}
+
+.section {
+    padding-bottom: 84px;
+}
+  
+.container {
+    margin: 0 auto;
+    padding-left: 31px;
+    padding-right: 31px;
+}
+
+@media only screen and (min-width: 768px) {
+    .container {
+      max-width: 768px;
+      padding-left: 32px;
+      padding-right: 32px;
+    }
+  
+.section {
+      padding-bottom: 100px;
+    }
+  }
+  
+@media only screen and (min-width: 1200px) {
+    .container {
+      max-width: 1200px;
+    }
+  
+    .section {
+      padding-bottom: 128px;
+    }
+}
+ 
+.hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+  
+html {
+    scroll-behavior: smooth;
+}
+  
+  

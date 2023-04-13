@@ -1,0 +1,76 @@
+/* =========== HEADER ============ */
+
+.header {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: grey;
+}
+
+.header-container {
+  max-width: 480px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-nav-list {
+  display: none;
+}
+
+.auth-nav {
+  display: none;
+}
+
+.burger-menu-button {
+  background-color: transparent;
+  border: none;
+}
+
+.burger-menu-icon {
+  outline: none;
+  fill: #ffffff;
+  width: 24px;
+  height: 16px;
+}
+
+/* ================ MOBILE MENU ================= */
+
+.mobile-menu {
+  max-width: 337px;
+  height: 100%;
+}
+
+.mobile-menu-container {
+  padding-top: 118px;
+  padding-bottom: 227px;
+  padding-left: 40px;
+}
+
+.mobile-menu-close-button {
+  background-color: transparent;
+  border: none;
+}
+
+.mobile-menu-close-icon {
+  fill: #303030;
+  width: 19px;
+  height: 19px;
+}
+
+.mobile-menu-navigation-list {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.mobile-menu-navigation-item {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: calc(25 / 18);
+  letter-spacing: 0.1em;
+}
+
+.mobile-menu-navigation-link:hover,
+.mobile-menu-navigation-link:focus {
+  color: var(--accent-color);
+}

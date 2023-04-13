@@ -13,18 +13,19 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Raleway:wght@700&display=swap"
     rel="stylesheet">
-  <link rel="stylesheet" href="./css/styles.css" />
+  <link rel="stylesheet" href="./css/base.css" />
+  <link rel="stylesheet" href="./css/mobile.css" />
 </head>
 
 <body>
-  <!-- Header -->
+  <!--======================= Header =========================== -->
   <header class="header">
     <div class="container header-container">
       <nav class="header-nav">
         <a href="/" class="logo">
           <img src="./images/logo.svg" alt="logo" width="69" height="55" />
         </a>
-        <ul class="header-nav-list list">
+        <ul class="header-nav-list">
           <li class="header-nav-item"><a href="#" class="header-nav-link link">About</a></li>
           <li class="header-nav-item"><a href="#" class="header-nav-link link">Services and prices</a></li>
           <li class="header-nav-item"><a href="#" class="header-nav-link link">Barbers</a></li>
@@ -35,6 +36,11 @@
         <a href="tel:+380441111111" class="header-tel link">+38 044 111 11 11</a>
         <button type="button" class="primary-button">Online-booking</button>
       </div>
+      <button type="button" class="burger-menu-button button">
+        <svg class="burger-menu-icon" width="40" height="40">
+          <use href="./images/symbol-defs.svg#icon-burger"></use>
+        </svg>
+      </button>
     </div>
   </header>
   <main>
@@ -59,7 +65,7 @@
       </div>
     </section>
     <!-- About -->
-    <section class="section about-section">
+    <section class="section about-section" id="about">
       <div class="container">
         <ul class="about-list list">
           <li class="about-list-item">
@@ -84,7 +90,7 @@
       </div>
     </section>
     <!-- Pricelist -->
-    <section class="section price-section">
+    <section class="section price-section" id="services-and-prices">
       <div class="container price-container">
         <p class="price-subtitle subtitle">Spend your time with the best masters</p>
         <h2 class="price-title">Services and prices</h2>
@@ -159,7 +165,7 @@
       </div>
     </section>
     <!-- Team -->
-    <section class="section team-section">
+    <section class="section team-section" id="Barbers">
       <div class="container">
         <p class="team-subtitle subtitle">For true enjoyers of the atmosphere</p>
         <h2 class="team-title">Our barbers</h2>
@@ -205,7 +211,7 @@
       </div>
     </section>
     <!-- Contacts -->
-    <section class="section contacts-section">
+    <section class="section contacts-section" id="Contacts">
       <h2>Online-booking</h2>
       <div class="container">
         <h2 class="contacts-title">Contacts</h2>
@@ -243,6 +249,25 @@
       </div>
     </div>
   </footer>
+  
+  <!-- ================= MOBILE MENU =============== -->
+  <div class="mobile-menu">
+    <div class="mobile-menu-container">
+<button type="button" class="mobile-menu-close-button button">
+  <svg class="mobile-menu-close-icon" width="40" height="40">
+    <use href="./images/symbol-defs.svg#icon-close"></use>
+  </svg>
+</button>
+<div class="mobile-menu-navigation">
+  <ul class="mobile-menu-navigation-list list">
+    <li class="mobile-menu-navigation-item"><a href="#about" class="mobile-menu-navigation-link link">About</a></li>
+    <li class="mobile-menu-navigation-item"><a href="#services-and-prices" class="mobile-menu-navigation-link link">Services and prices</a></li>
+    <li class="mobile-menu-navigation-item"><a href="#barbers" class="mobile-menu-navigation-link link">Barbers</a></li>
+    <li class="mobile-menu-navigation-item"><a href="#contacts" class="mobile-menu-navigation-link link">Contacts</a></li>
+  </ul>
+</div>
+</div>
+  </div>
 </body>
 
 </html>
